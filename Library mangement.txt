@@ -18,7 +18,6 @@ The following functionalities are there in  application:
 * Charge a rent fee on book returns<br>
 * Make sure a member’s outstanding debt is not more than Rs.500<br>
 
-
 # Overview
 ### Home page
  * The Home page covers all the books that are currently in the inventory, if the Librarian wishes to add more books, 
@@ -29,10 +28,8 @@ they can go to the add books page and search using the keywords of the book.
 ##### Home Page
  ![alt text](https://github.com/Swaroop/LibraryManagementSystem/blob/master/images/Home.png)
 
-
 ##### Add Books Page
  ![alt text](https://github.com/Swaroop/LibraryManagementSystem/blob/master/images/Add_books.png) 
-
 
 #####  Rent Out Page
  ![alt text](https://github.com/Swaroop/LibraryManagementSystem/blob/master/images/rent_out.png)
@@ -41,26 +38,20 @@ they can go to the add books page and search using the keywords of the book.
  ![alt text](https://github.com/Swaroop/LibraryManagementSystem/blob/master/images/Members.png)
 * Disabled Delete buttons implies that the member has taken a book and the member cannot be deleted until they have returned the book.
 
-
-
 ### Return Book Page
-
 * If the member wants to return the book the librarian can head to the return book page and click on return, after return a summary page is displayed which shows the current balance of the user and the total amount paid to the library, the fees for renting a book is calculated by the formula => 500₹ (initial charges) + 10₹ X (The number of days for which the book was issued) 
 
 #####  Return Page
  ![alt text](https://github.com/Swaroop/LibraryManagementSystem/blob/master/images/Return_book.png)
 
-
 #####  Summary Page
  ![alt text](https://github.com/Swaroop/LibraryManagementSystem/blob/master/images/Summary.png)
 
 ### Transactions Page
-
 * To see the transaction history the Librarian can head to the transactions page which shows the transactions arranged from most recent to least recent, A transaction in which the book was rented is shown by red color and a transaction in which the book was returned is shown by green color. 
 
 #####  Transactions Page
 ![alt text](https://github.com/Swaroop/LibraryManagementSystem/blob/master/images/Transactions.png)
-
 
 ### Analytics Page
 ![alt text](https://github.com/Swaroop/LibraryManagementSystem/blob/master/images/Analytics.png)
